@@ -1,0 +1,16 @@
+C:\Users\mitch\Source\Repos\odata.net\bin\AnyCPU\Debug\Test\Desktop\xunit.runner.visualstudio.testadapter.dll
+C:\Users\mitch\Source\Repos\odata.net\bin\AnyCPU\Debug\Test\Desktop\xunit.runner.utility.desktop.dll
+C:\Users\mitch\Source\Repos\odata.net\bin\AnyCPU\Debug\Test\Desktop\xunit.abstractions.dll
+C:\Users\mitch\Source\Repos\odata.net\bin\AnyCPU\Debug\Test\Desktop\Microsoft.OData.TestCommon.dll
+C:\Users\mitch\Source\Repos\odata.net\bin\AnyCPU\Debug\Test\Desktop\Microsoft.OData.TestCommon.pdb
+C:\Users\mitch\Source\Repos\odata.net\test\FunctionalTests\Microsoft.OData.TestCommon\Build.NetFramework\obj\Debug\Microsoft.OData.TestCommon.csprojResolveAssemblyReference.cache
+C:\Users\mitch\Source\Repos\odata.net\test\FunctionalTests\Microsoft.OData.TestCommon\Build.NetFramework\obj\Debug\Microsoft.OData.TestCommon.dll
+C:\Users\mitch\Source\Repos\odata.net\test\FunctionalTests\Microsoft.OData.TestCommon\Build.NetFramework\obj\Debug\Microsoft.OData.TestCommon.pdb
+C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Test\Desktop\xunit.runner.visualstudio.testadapter.dll
+C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Test\Desktop\xunit.runner.utility.desktop.dll
+C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Test\Desktop\xunit.abstractions.dll
+C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Test\Desktop\Microsoft.OData.TestCommon.dll
+C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Test\Desktop\Microsoft.OData.TestCommon.pdb
+C:\Users\mitch\Source\Repos\ODataProject\test\FunctionalTests\Microsoft.OData.TestCommon\Build.NetFramework\obj\Debug\Microsoft.OData.TestCommon.csprojResolveAssemblyReference.cache
+C:\Users\mitch\Source\Repos\ODataProject\test\FunctionalTests\Microsoft.OData.TestCommon\Build.NetFramework\obj\Debug\Microsoft.OData.TestCommon.dll
+C:\Users\mitch\Source\Repos\ODataProject\test\FunctionalTests\Microsoft.OData.TestCommon\Build.NetFramework\obj\Debug\Microsoft.OData.TestCommon.pdb
