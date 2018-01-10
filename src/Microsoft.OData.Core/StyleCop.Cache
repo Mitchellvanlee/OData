@@ -3,9 +3,6 @@
   <project key="-316971859">
     <configuration>CODE_ANALYSIS;ODATA_CORE;PORTABLELIB;SUPPRESS_PORTABLELIB_TARGETFRAMEWORK_ATTRIBUTE;ASSEMBLY_ATTRIBUTE_CLS_COMPLIANT;ASSEMBLY_ATTRIBUTE_TRANSPARENT_ASSEMBLY;ASSEMBLY_ATTRIBUTE_SKIP_VERIFICATION_IN_FULLTRUST;SUPPRESS_SECURITY_RULES;,DelaySignKeys,DEBUG,TRACE,CODE_ANALYSIS</configuration>
   </project>
-  <project key="-1320347440">
-    <configuration>CODE_ANALYSIS;ODATA_CORE;PORTABLELIB;SUPPRESS_PORTABLELIB_TARGETFRAMEWORK_ATTRIBUTE;ASSEMBLY_ATTRIBUTE_CLS_COMPLIANT;ASSEMBLY_ATTRIBUTE_TRANSPARENT_ASSEMBLY;ASSEMBLY_ATTRIBUTE_SKIP_VERIFICATION_IN_FULLTRUST;SUPPRESS_SECURITY_RULES;,DelaySignKeys,DEBUG,TRACE,CODE_ANALYSIS</configuration>
-  </project>
   <sourcecode name="AnnotationFilter.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2014/04/01 12:56:20.000</styleCop>
@@ -12195,39 +12192,6 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <sourcecode name="InternalErrorCodes.cs" parser="StyleCop.CSharp.CsParser">
-    <timestamps>
-      <styleCop>2014/04/01 12:56:20.000</styleCop>
-      <settingsFile>2017/11/13 14:18:03.443</settingsFile>
-      <sourceFile>2017/11/13 14:18:24.490</sourceFile>
-      <parser>2014/04/01 12:56:20.000</parser>
-      <StyleCop.CSharp.DocumentationRules>2014/04/01 12:56:20.000</StyleCop.CSharp.DocumentationRules>
-      <StyleCop.CSharp.DocumentationRules.FilesHashCode>265332125</StyleCop.CSharp.DocumentationRules.FilesHashCode>
-      <StyleCop.CSharp.LayoutRules>2014/04/01 12:56:20.000</StyleCop.CSharp.LayoutRules>
-      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
-      <StyleCop.CSharp.MaintainabilityRules>2014/04/01 12:56:20.000</StyleCop.CSharp.MaintainabilityRules>
-      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
-      <StyleCop.CSharp.NamingRules>2014/04/01 12:56:20.000</StyleCop.CSharp.NamingRules>
-      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
-      <StyleCop.CSharp.OrderingRules>2014/04/01 12:56:20.000</StyleCop.CSharp.OrderingRules>
-      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
-      <StyleCop.CSharp.ReadabilityRules>2014/04/01 12:56:20.000</StyleCop.CSharp.ReadabilityRules>
-      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
-      <StyleCop.CSharp.SpacingRules>2014/04/01 12:56:20.000</StyleCop.CSharp.SpacingRules>
-      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
-      <Microsoft.OData.StyleCop.FileHeaderRule>2014/04/01 12:56:20.000</Microsoft.OData.StyleCop.FileHeaderRule>
-      <Microsoft.OData.StyleCop.FileHeaderRule.FilesHashCode>0</Microsoft.OData.StyleCop.FileHeaderRule.FilesHashCode>
-      <Microsoft.OData.StyleCop.LineLengthRule>2014/04/01 12:56:20.000</Microsoft.OData.StyleCop.LineLengthRule>
-      <Microsoft.OData.StyleCop.LineLengthRule.FilesHashCode>0</Microsoft.OData.StyleCop.LineLengthRule.FilesHashCode>
-      <Microsoft.OData.StyleCop.LineSpaceRule>2014/04/01 12:56:20.000</Microsoft.OData.StyleCop.LineSpaceRule>
-      <Microsoft.OData.StyleCop.LineSpaceRule.FilesHashCode>0</Microsoft.OData.StyleCop.LineSpaceRule.FilesHashCode>
-      <Microsoft.OData.StyleCop.UseVarRule>2014/04/01 12:56:20.000</Microsoft.OData.StyleCop.UseVarRule>
-      <Microsoft.OData.StyleCop.UseVarRule.FilesHashCode>0</Microsoft.OData.StyleCop.UseVarRule.FilesHashCode>
-      <Microsoft.OData.StyleCop.UsingOutsideNamespaceRule>2014/04/01 12:56:20.000</Microsoft.OData.StyleCop.UsingOutsideNamespaceRule>
-      <Microsoft.OData.StyleCop.UsingOutsideNamespaceRule.FilesHashCode>0</Microsoft.OData.StyleCop.UsingOutsideNamespaceRule.FilesHashCode>
-    </timestamps>
-    <violations />
-  </sourcecode>
   <sourcecode name="KeyPropertyValue.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2014/04/01 12:56:20.000</styleCop>
@@ -18640,6 +18604,42 @@
       <styleCop>2014/04/01 12:56:20.000</styleCop>
       <settingsFile>2017/11/13 14:18:03.443</settingsFile>
       <sourceFile>2018/01/05 13:21:37.272</sourceFile>
+      <parser>2014/04/01 12:56:20.000</parser>
+      <StyleCop.CSharp.DocumentationRules>2014/04/01 12:56:20.000</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>265332125</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2014/04/01 12:56:20.000</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2014/04/01 12:56:20.000</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2014/04/01 12:56:20.000</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2014/04/01 12:56:20.000</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2014/04/01 12:56:20.000</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2014/04/01 12:56:20.000</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+      <Microsoft.OData.StyleCop.FileHeaderRule>2014/04/01 12:56:20.000</Microsoft.OData.StyleCop.FileHeaderRule>
+      <Microsoft.OData.StyleCop.FileHeaderRule.FilesHashCode>0</Microsoft.OData.StyleCop.FileHeaderRule.FilesHashCode>
+      <Microsoft.OData.StyleCop.LineLengthRule>2014/04/01 12:56:20.000</Microsoft.OData.StyleCop.LineLengthRule>
+      <Microsoft.OData.StyleCop.LineLengthRule.FilesHashCode>0</Microsoft.OData.StyleCop.LineLengthRule.FilesHashCode>
+      <Microsoft.OData.StyleCop.LineSpaceRule>2014/04/01 12:56:20.000</Microsoft.OData.StyleCop.LineSpaceRule>
+      <Microsoft.OData.StyleCop.LineSpaceRule.FilesHashCode>0</Microsoft.OData.StyleCop.LineSpaceRule.FilesHashCode>
+      <Microsoft.OData.StyleCop.UseVarRule>2014/04/01 12:56:20.000</Microsoft.OData.StyleCop.UseVarRule>
+      <Microsoft.OData.StyleCop.UseVarRule.FilesHashCode>0</Microsoft.OData.StyleCop.UseVarRule.FilesHashCode>
+      <Microsoft.OData.StyleCop.UsingOutsideNamespaceRule>2014/04/01 12:56:20.000</Microsoft.OData.StyleCop.UsingOutsideNamespaceRule>
+      <Microsoft.OData.StyleCop.UsingOutsideNamespaceRule.FilesHashCode>0</Microsoft.OData.StyleCop.UsingOutsideNamespaceRule.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <project key="-1320347440">
+    <configuration>CODE_ANALYSIS;ODATA_CORE;PORTABLELIB;SUPPRESS_PORTABLELIB_TARGETFRAMEWORK_ATTRIBUTE;ASSEMBLY_ATTRIBUTE_CLS_COMPLIANT;ASSEMBLY_ATTRIBUTE_TRANSPARENT_ASSEMBLY;ASSEMBLY_ATTRIBUTE_SKIP_VERIFICATION_IN_FULLTRUST;SUPPRESS_SECURITY_RULES;,DelaySignKeys,DEBUG,TRACE,CODE_ANALYSIS</configuration>
+  </project>
+  <sourcecode name="InternalErrorCodes.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2014/04/01 12:56:20.000</styleCop>
+      <settingsFile>2017/11/13 14:18:03.443</settingsFile>
+      <sourceFile>2017/11/13 14:18:24.490</sourceFile>
       <parser>2014/04/01 12:56:20.000</parser>
       <StyleCop.CSharp.DocumentationRules>2014/04/01 12:56:20.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>265332125</StyleCop.CSharp.DocumentationRules.FilesHashCode>

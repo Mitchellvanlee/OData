@@ -119,7 +119,7 @@
     </Reference>
     <Reference Include="System.Web.OData, Version=6.2.0.20110, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Desktop\System.Web.OData\src\System.Web.OData\obj\Debug\System.Web.OData.dll</HintPath>
+      <HintPath>..\..\src\System.Web.OData\bin\Debug\System.Web.OData.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
