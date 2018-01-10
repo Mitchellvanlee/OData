@@ -55,3 +55,4 @@ test/FunctionalTests/Tests/Data/Northwind/Northwind.csdl2.csdl
 
 # Symbol
 *.pdb
+/src/System.Web.OData/

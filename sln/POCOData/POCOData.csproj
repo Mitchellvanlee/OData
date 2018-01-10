@@ -117,12 +117,12 @@
       <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Web.OData, Version=6.2.0.20110, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\src\System.Web.OData\src\System.Web.OData\obj\Debug\System.Web.OData.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\WebApi\src\System.Web.OData\System.Web.OData.csproj">
-      <Project>{d23e28f1-ccd0-43e0-8c0d-36731ec91318}</Project>
-      <Name>System.Web.OData</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\src\Microsoft.OData.Core\Microsoft.OData.Core.csproj">
       <Project>{989a83cc-b864-4a75-8bf3-5eda99203a86}</Project>
       <Name>Microsoft.OData.Core</Name>
