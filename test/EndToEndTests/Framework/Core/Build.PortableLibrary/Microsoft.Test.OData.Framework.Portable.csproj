@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkIdentifier>.NETPortable</TargetFrameworkIdentifier>
+    <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
+    <AssemblyName>Microsoft.Test.OData.Framework.Portable</AssemblyName>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Microsoft.Test.OData.Framework</RootNamespace>
+    <ProjectGuid>{74295872-F930-497B-A70E-ED4FAAB395C4}</ProjectGuid>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <AssemblyAttributeClsCompliant>false</AssemblyAttributeClsCompliant>
+    <DefineConstants>$(DefineConstants);PORTABLELIB;SUPPRESS_PORTABLELIB_TARGETFRAMEWORK_ATTRIBUTE;DNXCORE50;</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+  </PropertyGroup>
+  <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), Build.props))\Build.props" />
+  <ItemGroup>
+    <ProjectReference Include="$(EnlistmentRoot)\src\Microsoft.OData.Client\Build.Portable\Microsoft.OData.Client.Portable.csproj">
+      <Project>{aed0dc9d-76e5-4145-af5e-9e2f856f4d18}</Project>
+      <Name>Microsoft.OData.Client.Portable</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Client\ClientExceptionUtil.cs" />
+    <Compile Include="..\Client\DataServiceContextWrapper.cs" />
+    <Compile Include="..\Common\HttpHeaders.cs" />
+    <Compile Include="..\Common\MimeTypes.cs" />
+    <Compile Include="..\Common\ExceptionUtilities.cs" />
+    <Compile Include="..\Common\DataComparisonException.cs" />
+    <Compile Include="..\Common\IResourceLookup.cs" />
+    <Compile Include="..\Common\AssemblyResourceLookup.cs" />
+    <Compile Include="..\Common\TestFailedException.cs" />
+    <Compile Include="..\Common\ToStringConverter.cs" />
+    <Compile Include="..\GlobalSuppressions.cs" />
+    <Compile Include="..\Server\DefaultServiceWrapper.cs" />
+    <Compile Include="..\Server\ExternalHostedServiceWrapper.cs" />
+    <Compile Include="..\Server\IServiceWrapper.cs" />
+    <Compile Include="..\Server\ServiceDescriptor.cs" />
+    <Compile Include="..\Verification\StringResourceUtil.cs" />
+    <Compile Include="..\Verification\IStringResourceVerifier.cs" />
+    <Compile Include="..\Verification\StringResourceVerifier.cs" />
+  </ItemGroup>
+  <Import Project="$(BuildExtensionsPath)\Portable.targets" />
+</Project>

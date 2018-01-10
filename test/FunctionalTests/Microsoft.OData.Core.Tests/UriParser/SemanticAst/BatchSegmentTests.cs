@@ -1,0 +1,43 @@
+﻿//---------------------------------------------------------------------
+// <copyright file="BatchSegmentTests.cs" company="Microsoft">
+//      Copyright (C) Microsoft Corporation. All rights reserved. See License.txt in the project root for license information.
+// </copyright>
+//---------------------------------------------------------------------
+
+using FluentAssertions;
+using Microsoft.OData.UriParser;
+using Xunit;
+
+namespace Microsoft.OData.Tests.UriParser.SemanticAst
+{
+    public class BatchSegmentTests
+    {
+        [Fact]
+        public void IdentifierIsBatchSegment()
+        {
+            BatchSegment.Instance.Identifier.Should().Be(UriQueryConstants.BatchSegment);
+        }
+
+        [Fact]
+        public void TargetKindIsBatch()
+        {
+            BatchSegment.Instance.TargetKind.Should().Be(RequestTargetKind.Batch);
+        }
+
+        [Fact]
+        public void EqualityIsCorrect()
+        {
+            BatchSegment segment1 = BatchSegment.Instance;
+            BatchSegment segment2 = BatchSegment.Instance;
+            segment1.Equals(segment2).Should().BeTrue();
+        }
+
+        [Fact]
+        public void InequalityIsCorrect()
+        {
+            BatchSegment segment1 = BatchSegment.Instance;
+            CountSegment segment2 = CountSegment.Instance;
+            segment1.Equals(segment2).Should().BeFalse();
+        }
+    }
+}
