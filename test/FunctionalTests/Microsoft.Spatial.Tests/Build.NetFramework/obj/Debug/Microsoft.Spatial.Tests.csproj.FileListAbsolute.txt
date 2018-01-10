@@ -7,12 +7,3 @@ C:\Users\mitch\Source\Repos\odata.net\bin\AnyCPU\Debug\Test\Desktop\Microsoft.Sp
 C:\Users\mitch\Source\Repos\odata.net\test\FunctionalTests\Microsoft.Spatial.Tests\Build.NetFramework\obj\Debug\Microsoft.Spatial.Tests.csprojResolveAssemblyReference.cache
 C:\Users\mitch\Source\Repos\odata.net\test\FunctionalTests\Microsoft.Spatial.Tests\Build.NetFramework\obj\Debug\Microsoft.Spatial.Tests.dll
 C:\Users\mitch\Source\Repos\odata.net\test\FunctionalTests\Microsoft.Spatial.Tests\Build.NetFramework\obj\Debug\Microsoft.Spatial.Tests.pdb
-C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Test\Desktop\xunit.runner.visualstudio.testadapter.dll
-C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Test\Desktop\xunit.runner.utility.desktop.dll
-C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Test\Desktop\xunit.execution.desktop.dll
-C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Test\Desktop\xunit.abstractions.dll
-C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Test\Desktop\Microsoft.Spatial.Tests.dll
-C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Test\Desktop\Microsoft.Spatial.Tests.pdb
-C:\Users\mitch\Source\Repos\ODataProject\test\FunctionalTests\Microsoft.Spatial.Tests\Build.NetFramework\obj\Debug\Microsoft.Spatial.Tests.csprojResolveAssemblyReference.cache
-C:\Users\mitch\Source\Repos\ODataProject\test\FunctionalTests\Microsoft.Spatial.Tests\Build.NetFramework\obj\Debug\Microsoft.Spatial.Tests.dll
-C:\Users\mitch\Source\Repos\ODataProject\test\FunctionalTests\Microsoft.Spatial.Tests\Build.NetFramework\obj\Debug\Microsoft.Spatial.Tests.pdb

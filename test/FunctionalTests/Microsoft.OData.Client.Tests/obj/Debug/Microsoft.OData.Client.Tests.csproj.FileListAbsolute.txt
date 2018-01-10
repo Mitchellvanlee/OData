@@ -4,9 +4,3 @@ C:\Users\mitch\Source\Repos\odata.net\bin\AnyCPU\Debug\Test\Desktop\Microsoft.OD
 C:\Users\mitch\Source\Repos\odata.net\bin\AnyCPU\Debug\Test\Desktop\Microsoft.OData.Client.Tests.pdb
 C:\Users\mitch\Source\Repos\odata.net\test\FunctionalTests\Microsoft.OData.Client.Tests\obj\Debug\Microsoft.OData.Client.Tests.dll
 C:\Users\mitch\Source\Repos\odata.net\test\FunctionalTests\Microsoft.OData.Client.Tests\obj\Debug\Microsoft.OData.Client.Tests.pdb
-C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Test\Desktop\xunit.execution.desktop.dll
-C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Test\Desktop\Microsoft.OData.Client.Tests.dll
-C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Test\Desktop\Microsoft.OData.Client.Tests.pdb
-C:\Users\mitch\Source\Repos\ODataProject\test\FunctionalTests\Microsoft.OData.Client.Tests\obj\Debug\Microsoft.OData.Client.Tests.csprojResolveAssemblyReference.cache
-C:\Users\mitch\Source\Repos\ODataProject\test\FunctionalTests\Microsoft.OData.Client.Tests\obj\Debug\Microsoft.OData.Client.Tests.dll
-C:\Users\mitch\Source\Repos\ODataProject\test\FunctionalTests\Microsoft.OData.Client.Tests\obj\Debug\Microsoft.OData.Client.Tests.pdb

@@ -8,13 +8,3 @@ C:\Users\mitch\Source\Repos\odata.net\bin\AnyCPU\Debug\Product\Desktop\Microsoft
 C:\Users\mitch\Source\Repos\odata.net\bin\AnyCPU\Debug\Product\Desktop\Microsoft.OData.Client.dll.lastcodeanalysissucceeded
 C:\Users\mitch\Source\Repos\odata.net\obj\AnyCPU\Debug\Microsoft.OData.Client.csproj\Desktop\Microsoft.OData.Client.dll
 C:\Users\mitch\Source\Repos\odata.net\obj\AnyCPU\Debug\Microsoft.OData.Client.csproj\Desktop\Microsoft.OData.Client.pdb
-C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Product\Desktop\Microsoft.OData.Client.dll
-C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Product\Desktop\Microsoft.OData.Client.pdb
-C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Product\Desktop\Microsoft.OData.Client.xml
-C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Product\Desktop\Microsoft.OData.Client.dll.CodeAnalysisLog.xml
-C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Product\Desktop\Microsoft.OData.Client.dll.lastcodeanalysissucceeded
-C:\Users\mitch\Source\Repos\ODataProject\obj\AnyCPU\Debug\Microsoft.OData.Client.csproj\Desktop\Microsoft.OData.Client.csprojResolveAssemblyReference.cache
-C:\Users\mitch\Source\Repos\ODataProject\obj\AnyCPU\Debug\Microsoft.OData.Client.csproj\Desktop\Microsoft.OData.Client.resources
-C:\Users\mitch\Source\Repos\ODataProject\obj\AnyCPU\Debug\Microsoft.OData.Client.csproj\Desktop\Microsoft.OData.Client.csproj.GenerateResource.Cache
-C:\Users\mitch\Source\Repos\ODataProject\obj\AnyCPU\Debug\Microsoft.OData.Client.csproj\Desktop\Microsoft.OData.Client.dll
-C:\Users\mitch\Source\Repos\ODataProject\obj\AnyCPU\Debug\Microsoft.OData.Client.csproj\Desktop\Microsoft.OData.Client.pdb
