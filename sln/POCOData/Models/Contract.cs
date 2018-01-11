@@ -8,8 +8,8 @@ namespace POCOData.Models
         public enum ContractType
         {
             Financiering = 0,
-            Verzekering,
-            Onbekend,
+            Verzekering = 1,
+            Onbekend = 2
         }
         public Verkoper Verkoper { get; set; }
         public ContractType Financiering { get; set; }
