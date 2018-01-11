@@ -3,3 +3,8 @@ C:\Users\mitch\Source\Repos\odata.net\bin\AnyCPU\Debug\Test\Desktop\Microsoft.Te
 C:\Users\mitch\Source\Repos\odata.net\bin\AnyCPU\Debug\Test\Desktop\Microsoft.Test.OData.DependencyInjection.pdb
 C:\Users\mitch\Source\Repos\odata.net\obj\AnyCPU\Debug\Microsoft.Test.OData.DependencyInjection.csproj\Desktop\Microsoft.Test.OData.DependencyInjection.dll
 C:\Users\mitch\Source\Repos\odata.net\obj\AnyCPU\Debug\Microsoft.Test.OData.DependencyInjection.csproj\Desktop\Microsoft.Test.OData.DependencyInjection.pdb
+C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Test\Desktop\Microsoft.Test.OData.DependencyInjection.dll
+C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Test\Desktop\Microsoft.Test.OData.DependencyInjection.pdb
+C:\Users\mitch\Source\Repos\ODataProject\obj\AnyCPU\Debug\Microsoft.Test.OData.DependencyInjection.csproj\Desktop\Microsoft.Test.OData.DependencyInjection.csprojResolveAssemblyReference.cache
+C:\Users\mitch\Source\Repos\ODataProject\obj\AnyCPU\Debug\Microsoft.Test.OData.DependencyInjection.csproj\Desktop\Microsoft.Test.OData.DependencyInjection.dll
+C:\Users\mitch\Source\Repos\ODataProject\obj\AnyCPU\Debug\Microsoft.Test.OData.DependencyInjection.csproj\Desktop\Microsoft.Test.OData.DependencyInjection.pdb

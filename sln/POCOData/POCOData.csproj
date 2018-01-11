@@ -90,6 +90,10 @@
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.OData.Core, Version=7.5.0.20110, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\AnyCPU\Debug\Product\.NETPortable\v4.5\Microsoft.OData.Core.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Owin, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Owin.3.1.0\lib\net45\Microsoft.Owin.dll</HintPath>
       <Private>True</Private>
@@ -123,10 +127,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Microsoft.OData.Core\Microsoft.OData.Core.csproj">
-      <Project>{989a83cc-b864-4a75-8bf3-5eda99203a86}</Project>
-      <Name>Microsoft.OData.Core</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\src\Microsoft.OData.Edm\Microsoft.OData.Edm.csproj">
       <Project>{7d921888-fe03-4c3f-80fe-2f624505461c}</Project>
       <Name>Microsoft.OData.Edm</Name>

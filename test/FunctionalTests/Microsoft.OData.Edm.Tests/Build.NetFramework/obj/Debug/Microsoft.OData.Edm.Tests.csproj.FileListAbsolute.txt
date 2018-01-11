@@ -7,3 +7,12 @@ C:\Users\mitch\Source\Repos\odata.net\bin\AnyCPU\Debug\Test\Desktop\Microsoft.OD
 C:\Users\mitch\Source\Repos\odata.net\test\FunctionalTests\Microsoft.OData.Edm.Tests\Build.NetFramework\obj\Debug\Microsoft.OData.Edm.Tests.csprojResolveAssemblyReference.cache
 C:\Users\mitch\Source\Repos\odata.net\test\FunctionalTests\Microsoft.OData.Edm.Tests\Build.NetFramework\obj\Debug\Microsoft.OData.Edm.Tests.dll
 C:\Users\mitch\Source\Repos\odata.net\test\FunctionalTests\Microsoft.OData.Edm.Tests\Build.NetFramework\obj\Debug\Microsoft.OData.Edm.Tests.pdb
+C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Test\Desktop\xunit.runner.visualstudio.testadapter.dll
+C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Test\Desktop\xunit.runner.utility.desktop.dll
+C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Test\Desktop\xunit.execution.desktop.dll
+C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Test\Desktop\xunit.abstractions.dll
+C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Test\Desktop\Microsoft.OData.Edm.Tests.dll
+C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Test\Desktop\Microsoft.OData.Edm.Tests.pdb
+C:\Users\mitch\Source\Repos\ODataProject\test\FunctionalTests\Microsoft.OData.Edm.Tests\Build.NetFramework\obj\Debug\Microsoft.OData.Edm.Tests.csprojResolveAssemblyReference.cache
+C:\Users\mitch\Source\Repos\ODataProject\test\FunctionalTests\Microsoft.OData.Edm.Tests\Build.NetFramework\obj\Debug\Microsoft.OData.Edm.Tests.dll
+C:\Users\mitch\Source\Repos\ODataProject\test\FunctionalTests\Microsoft.OData.Edm.Tests\Build.NetFramework\obj\Debug\Microsoft.OData.Edm.Tests.pdb

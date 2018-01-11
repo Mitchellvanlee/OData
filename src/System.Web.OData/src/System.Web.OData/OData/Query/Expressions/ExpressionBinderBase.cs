@@ -117,6 +117,7 @@ namespace System.Web.OData.Query.Expressions
                 Type enumUnderlyingType = Enum.GetUnderlyingType(enumType);
                 left = ConvertToEnumUnderlyingType(left, enumType, enumUnderlyingType);
                 right = ConvertToEnumUnderlyingType(right, enumType, enumUnderlyingType);
+
             }
 
             if (leftUnderlyingType == typeof(DateTime) && rightUnderlyingType == typeof(DateTimeOffset))

@@ -2,12 +2,12 @@
 using System.Web.Http;
 using System.Web.OData;
 using System.Web.OData.Builder;
-using System.Web.OData.Extensions;
 using System.Web.OData.Query;
 using System.Web.OData.Routing.Conventions;
 using Microsoft.OData;
 using Microsoft.OData.UriParser;
 using POCOData.Models;
+using System.Web.OData.Extensions;
 
 namespace POCOData
 {
