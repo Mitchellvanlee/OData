@@ -247,6 +247,14 @@ namespace System.Web.OData.Query.Expressions
                 return WrapConvert(Expression.Call(null, countMethod, asQuerableExpression));
             }
 
+            if (expression.Method == AggregationMethod.FilteredCount)
+            {
+                var filteredCountMethod = ExpressionHelperMethods.QueryAbleFilteredCountGeneric.MakeGenericMethod(this._elementType);
+                return filteredCountMethod.Invoke(null, new object[] {asQuerableExpression}) as Expression;
+                //aggregationExpression = Expression.Call(null, filteredCountMethod, asQuerableExpression);
+                //return filteredCountMethod.Invoke(null, new object[] { query, where });
+            }
+
             Expression propertyAccessor = BindAccessor(expression.Expression);
             LambdaExpression propertyLambda = Expression.Lambda(propertyAccessor,
                 this._lambdaParameter);

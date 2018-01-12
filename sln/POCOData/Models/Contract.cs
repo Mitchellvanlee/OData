@@ -1,15 +1,13 @@
-﻿using System.Web.OData.Builder;
-
-namespace POCOData.Models
+﻿namespace POCOData.Models
 {
     public class Contract
     {
         public int ContractId { get; set; }
         public enum ContractType
         {
-            Financiering = 0,
-            Verzekering = 1,
-            Onbekend = 2
+            Financiering,
+            Verzekering,
+            Onbekend
         }
         public Verkoper Verkoper { get; set; }
         public ContractType Financiering { get; set; }

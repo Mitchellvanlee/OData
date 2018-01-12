@@ -117,7 +117,6 @@ namespace System.Web.OData.Query.Expressions
                 Type enumUnderlyingType = Enum.GetUnderlyingType(enumType);
                 left = ConvertToEnumUnderlyingType(left, enumType, enumUnderlyingType);
                 right = ConvertToEnumUnderlyingType(right, enumType, enumUnderlyingType);
-
             }
 
             if (leftUnderlyingType == typeof(DateTime) && rightUnderlyingType == typeof(DateTimeOffset))
@@ -858,6 +857,10 @@ namespace System.Web.OData.Query.Expressions
                 return Expression.Convert(expression, typeof(Nullable<>).MakeGenericType(enumUnderlyingType));
             }
             else if (expression.NodeType == ExpressionType.Constant && ((ConstantExpression)expression).Value == null)
+            {
+                return expression;
+            }
+            else if (expression.NodeType == ExpressionType.Constant)
             {
                 return expression;
             }
