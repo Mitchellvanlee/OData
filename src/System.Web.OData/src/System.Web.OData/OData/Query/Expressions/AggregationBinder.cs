@@ -234,6 +234,13 @@ namespace System.Web.OData.Query.Expressions
             return wrapperTypeMemberAssignments;
         }
 
+        private Expression[] CreateExpressionsFromBinaryOperator()
+        {
+            Expression left = null;
+            Expression right = null;
+            return new Expression[] {left, right};
+        }
+
         private Expression CreateAggregationExpression(ParameterExpression accum, AggregateExpression expression)
         {
             // I substitute the element type for all generic arguments.
@@ -245,14 +252,6 @@ namespace System.Web.OData.Query.Expressions
             {
                 var countMethod = ExpressionHelperMethods.QueryableCountGeneric.MakeGenericMethod(this._elementType);
                 return WrapConvert(Expression.Call(null, countMethod, asQuerableExpression));
-            }
-
-            if (expression.Method == AggregationMethod.FilteredCount)
-            {
-                var filteredCountMethod = ExpressionHelperMethods.QueryAbleFilteredCountGeneric.MakeGenericMethod(this._elementType);
-                return filteredCountMethod.Invoke(null, new object[] {asQuerableExpression}) as Expression;
-                //aggregationExpression = Expression.Call(null, filteredCountMethod, asQuerableExpression);
-                //return filteredCountMethod.Invoke(null, new object[] { query, where });
             }
 
             Expression propertyAccessor = BindAccessor(expression.Expression);

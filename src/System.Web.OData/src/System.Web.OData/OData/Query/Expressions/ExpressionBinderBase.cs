@@ -104,7 +104,6 @@ namespace System.Web.OData.Query.Expressions
         internal Expression CreateBinaryExpression(BinaryOperatorKind binaryOperator, Expression left, Expression right, bool liftToNull)
         {
             ExpressionType binaryExpressionType;
-
             // When comparing an enum to a string, parse the string, convert both to the enum underlying type, and compare the values
             // When comparing an enum to an enum with the same type, convert both to the underlying type, and compare the values
             Type leftUnderlyingType = Nullable.GetUnderlyingType(left.Type) ?? left.Type;
@@ -146,7 +145,6 @@ namespace System.Web.OData.Query.Expressions
 
             if (left.Type != right.Type)
             {
-                // one of them must be nullable and the other is not.
                 left = ToNullable(left);
                 right = ToNullable(right);
             }
@@ -895,6 +893,11 @@ namespace System.Web.OData.Query.Expressions
 
                     return value.Property;
                 }
+            }
+            else if (expression.NodeType == ExpressionType.Constant)
+            {
+                ConstantExpression constant = (ConstantExpression) expression;
+                return constant.Value;
             }
 
             return null;
