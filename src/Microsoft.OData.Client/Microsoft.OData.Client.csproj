@@ -24,6 +24,14 @@
   <!-- References -->
   <Import Project="..\Build.props" />
   <ItemGroup>
+    <ProjectReference Include="..\Microsoft.OData.Core\Microsoft.OData.Core.csproj">
+      <Project>{989a83cc-b864-4a75-8bf3-5eda99203a86}</Project>
+      <Name>Microsoft.OData.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Microsoft.Spatial\Microsoft.Spatial.csproj">
+      <Project>{5d921888-fe03-4c3f-40fe-2f624505461d}</Project>
+      <Name>Microsoft.Spatial</Name>
+    </ProjectReference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
@@ -33,14 +41,6 @@
     <ProjectReference Include="..\Microsoft.OData.Edm\Microsoft.OData.Edm.csproj">
       <Project>{7D921888-FE03-4C3F-80FE-2F624505461C}</Project>
       <Name>Microsoft.OData.Edm</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Microsoft.Spatial\Microsoft.Spatial.csproj">
-      <Project>{5D921888-FE03-4C3F-40FE-2F624505461D}</Project>
-      <Name>Microsoft.Spatial</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Microsoft.OData.Core\Microsoft.OData.Core.csproj">
-      <Project>{989A83CC-B864-4A75-8BF3-5EDA99203A86}</Project>
-      <Name>Microsoft.OData.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <!-- Generated files -->

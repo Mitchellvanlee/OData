@@ -897,7 +897,11 @@ namespace System.Web.OData.Query.Expressions
             else if (expression.NodeType == ExpressionType.Constant)
             {
                 ConstantExpression constant = (ConstantExpression) expression;
-                return constant.Value;
+                ODataEnumValue enumValue = constant.Value as ODataEnumValue;
+                if (enumValue != null)
+                {
+                    return enumValue.Value;
+                }
             }
 
             return null;

@@ -264,8 +264,26 @@ namespace System.Web.OData.Query.Expressions
             {
                 case AggregationMethod.FilteredCount:
                     {
-                        var filteredCountMethod = ExpressionHelperMethods.QueryAbleFilteredCountGeneric.MakeGenericMethod(this._elementType);
-                        aggregationExpression = Expression.Call(null, filteredCountMethod, asQuerableExpression, propertyLambda);
+//                        // I select the specific field
+//                        var selectMethod =
+//                            ExpressionHelperMethods.QueryableSelectGeneric.MakeGenericMethod(this._elementType,
+//                                propertyLambda.Body.Type);
+//                        Expression queryableSelectExpression = Expression.Call(null, selectMethod, asQuerableExpression,
+//                            propertyLambda);
+//
+//                        // I run distinct over the set of items
+//                        var filterdCountMethod =
+//                            ExpressionHelperMethods.QueryableWhereGeneric.MakeGenericMethod(propertyLambda.Body.Type);
+//                        Expression filteredCountExpression = Expression.Call(null, filterdCountMethod, queryableSelectExpression);
+//
+//                        // I count the distinct items as the aggregation expression
+//                        var countMethod =
+//                            ExpressionHelperMethods.QueryableCountGeneric.MakeGenericMethod(propertyLambda.Body.Type);
+//                        aggregationExpression = Expression.Call(null, countMethod, filteredCountExpression);
+                        var filteredCountMethod =
+                            ExpressionHelperMethods.QueryAbleFilteredCountGeneric.MakeGenericMethod(this._elementType);
+                        aggregationExpression = Expression.Call(null, filteredCountMethod, asQuerableExpression,
+                            propertyLambda);
                     }
                     break;
                 case AggregationMethod.Min:
@@ -413,10 +431,7 @@ namespace System.Web.OData.Query.Expressions
 
         private Expression CreateConstantExpression(ConstantNode node)
         {
-            Expression source = Expression.Constant(node.LiteralText);
-            //Expression constant = CreatePropertyAccessExpression(source, );
-
-            return Expression.Constant(node.LiteralText);
+            return Expression.Constant(node.Value);
         }
 
         private Expression CreatePropertyAccessExpression(Expression source, IEdmProperty property, string propertyPath = null)

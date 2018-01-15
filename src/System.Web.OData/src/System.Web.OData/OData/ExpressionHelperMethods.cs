@@ -27,7 +27,7 @@ namespace System.Web.OData
         private static MethodInfo _skipMethod = GenericMethodOf(_ => Queryable.Skip<int>(default(IQueryable<int>), default(int)));
         private static MethodInfo _enumerableSkipMethod = GenericMethodOf(_ => Enumerable.Skip<int>(default(IEnumerable<int>), default(int)));
         private static MethodInfo _whereMethod = GenericMethodOf(_ => Queryable.Where<int>(default(IQueryable<int>), default(Expression<Func<int, bool>>)));
-        private static MethodInfo _filteredCountMethod = GenericMethodOf(_ => Queryable.Count(default(IQueryable<int>), default(Expression<Func<int, bool>>)));
+        private static MethodInfo _filteredCountMethod = GenericMethodOf(_ => Queryable.LongCount(default(IQueryable<int>), default(Expression<Func<int, bool>>)));
 
         private static MethodInfo _queryableEmptyAnyMethod = GenericMethodOf(_ => Queryable.Any<int>(default(IQueryable<int>)));
         private static MethodInfo _queryableNonEmptyAnyMethod = GenericMethodOf(_ => Queryable.Any<int>(default(IQueryable<int>), default(Expression<Func<int, bool>>)));
