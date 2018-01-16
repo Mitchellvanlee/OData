@@ -3,9 +3,6 @@
   <project key="-970902904">
     <configuration>CODE_ANALYSIS;SPATIAL;PORTABLELIB;SUPPRESS_PORTABLELIB_TARGETFRAMEWORK_ATTRIBUTE;ASSEMBLY_ATTRIBUTE_CLS_COMPLIANT;ASSEMBLY_ATTRIBUTE_TRANSPARENT_ASSEMBLY;ASSEMBLY_ATTRIBUTE_SKIP_VERIFICATION_IN_FULLTRUST;SUPPRESS_SECURITY_RULES;,DelaySignKeys,DEBUG,TRACE,CODE_ANALYSIS</configuration>
   </project>
-  <project key="-2031190377">
-    <configuration>CODE_ANALYSIS;SPATIAL;PORTABLELIB;SUPPRESS_PORTABLELIB_TARGETFRAMEWORK_ATTRIBUTE;ASSEMBLY_ATTRIBUTE_CLS_COMPLIANT;ASSEMBLY_ATTRIBUTE_TRANSPARENT_ASSEMBLY;ASSEMBLY_ATTRIBUTE_SKIP_VERIFICATION_IN_FULLTRUST;SUPPRESS_SECURITY_RULES;,DelaySignKeys,DEBUG,TRACE,CODE_ANALYSIS</configuration>
-  </project>
   <sourcecode name="WrappedGeoJsonWriter.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2014/04/01 12:56:20.000</styleCop>
@@ -1495,7 +1492,7 @@
     <timestamps>
       <styleCop>2014/04/01 12:56:20.000</styleCop>
       <settingsFile>2017/11/13 14:18:03.443</settingsFile>
-      <sourceFile>2017/11/13 14:18:47.662</sourceFile>
+      <sourceFile>2018/01/16 13:39:49.808</sourceFile>
       <parser>2014/04/01 12:56:20.000</parser>
       <StyleCop.CSharp.DocumentationRules>2014/04/01 12:56:20.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>265332125</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -3277,7 +3274,7 @@
     <timestamps>
       <styleCop>2014/04/01 12:56:20.000</styleCop>
       <settingsFile>2017/11/13 14:18:03.443</settingsFile>
-      <sourceFile>2017/11/13 14:18:48.276</sourceFile>
+      <sourceFile>2018/01/16 13:39:49.847</sourceFile>
       <parser>2014/04/01 12:56:20.000</parser>
       <StyleCop.CSharp.DocumentationRules>2014/04/01 12:56:20.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>265332125</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -3409,7 +3406,7 @@
     <timestamps>
       <styleCop>2014/04/01 12:56:20.000</styleCop>
       <settingsFile>2017/11/13 14:18:03.443</settingsFile>
-      <sourceFile>2017/11/13 14:18:44.576</sourceFile>
+      <sourceFile>2018/01/16 13:39:49.713</sourceFile>
       <parser>2014/04/01 12:56:20.000</parser>
       <StyleCop.CSharp.DocumentationRules>2014/04/01 12:56:20.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>265332125</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -3603,4 +3600,7 @@
     </timestamps>
     <violations />
   </sourcecode>
+  <project key="-2031190377">
+    <configuration>CODE_ANALYSIS;SPATIAL;PORTABLELIB;SUPPRESS_PORTABLELIB_TARGETFRAMEWORK_ATTRIBUTE;ASSEMBLY_ATTRIBUTE_CLS_COMPLIANT;ASSEMBLY_ATTRIBUTE_TRANSPARENT_ASSEMBLY;ASSEMBLY_ATTRIBUTE_SKIP_VERIFICATION_IN_FULLTRUST;SUPPRESS_SECURITY_RULES;,DelaySignKeys,DEBUG,TRACE,CODE_ANALYSIS</configuration>
+  </project>
 </stylecopresultscache>
