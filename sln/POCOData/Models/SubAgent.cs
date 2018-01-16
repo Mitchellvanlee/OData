@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Web.OData.Builder;
+﻿using System.Web.OData.Builder;
 
 namespace POCOData.Models
 {

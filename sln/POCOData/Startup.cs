@@ -5,7 +5,7 @@ using Owin;
 
 namespace POCOData
 {
-    public partial class Startup
+    public class Startup
     {
         public void Configuration(IAppBuilder app)
         {

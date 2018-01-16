@@ -1,12 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Web.Http;
 using System.Web.OData;
 using System.Web.OData.Routing;
 using POCOData.Context;
 using POCOData.Models;
 using System.Linq;
-using System.Web.Http.Results;
 
 namespace POCOData.Controllers
 {

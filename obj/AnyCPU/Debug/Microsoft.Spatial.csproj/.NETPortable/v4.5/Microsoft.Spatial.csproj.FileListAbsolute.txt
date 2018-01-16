@@ -12,6 +12,7 @@ C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Product\.NETPortable\v
 C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Product\.NETPortable\v4.5\Microsoft.Spatial.xml
 C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Product\.NETPortable\v4.5\Microsoft.Spatial.dll.CodeAnalysisLog.xml
 C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Product\.NETPortable\v4.5\Microsoft.Spatial.dll.lastcodeanalysissucceeded
+C:\Users\mitch\Source\Repos\ODataProject\obj\AnyCPU\Debug\Microsoft.Spatial.csproj\.NETPortable\v4.5\Microsoft.Spatial.csprojResolveAssemblyReference.cache
 C:\Users\mitch\Source\Repos\ODataProject\obj\AnyCPU\Debug\Microsoft.Spatial.csproj\.NETPortable\v4.5\Microsoft.Spatial.resources
 C:\Users\mitch\Source\Repos\ODataProject\obj\AnyCPU\Debug\Microsoft.Spatial.csproj\.NETPortable\v4.5\Microsoft.Spatial.csproj.GenerateResource.Cache
 C:\Users\mitch\Source\Repos\ODataProject\obj\AnyCPU\Debug\Microsoft.Spatial.csproj\.NETPortable\v4.5\Microsoft.Spatial.dll
