@@ -138,10 +138,6 @@ namespace System.Web.OData.Query
         /// </summary>
         public CountQueryOption Count { get; private set; }
 
-        //NewMitchell
-        //public FilteredCountQueryOption FilteredCount { get; private set; }
-        // --
-
         /// <summary>
         /// Gets or sets the query validator.
         /// </summary>
@@ -206,9 +202,7 @@ namespace System.Web.OData.Query
                  queryOptionName == "$skiptoken" ||
                  queryOptionName == "$deltatoken" ||
                  queryOptionName == "$apply" ||
-                 //NewMitchell
                  queryOptionName == "$filteredcount";
-                 //--
         }
 
         /// <summary>

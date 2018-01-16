@@ -36,7 +36,8 @@ namespace Microsoft.OData.UriParser.Aggregation
 
         /// <summary>A aggregation method Count.</summary>
         Count,
-        //NewMitchell
+
+        /// <summary>A aggregation method FilteredCount.</summary>
         FilteredCount
     }
 
@@ -65,7 +66,8 @@ namespace Microsoft.OData.UriParser.Aggregation
 
         /// <summary>Returns a definition for the aggregation method used to calculate $count.</summary>
         public static AggregationMethodDefinition Count = new AggregationMethodDefinition(AggregationMethod.Count);
-        //NewMitchell
+        
+        /// <summary>Returns a definition for the aggregation method used to calculate $filteredcount.</summary>
         public static AggregationMethodDefinition FilteredCount = new AggregationMethodDefinition(AggregationMethod.FilteredCount);
 
         /// <summary>Private constructor. Instances should be aquired via static fields of via Custom method.</summary>

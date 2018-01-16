@@ -164,7 +164,6 @@ namespace Microsoft.OData.UriParser
         /// </summary>
         SingleValueCast = InternalQueryNodeKind.SingleValueCast,
 
-        //NewMitchell
         /// <summary>
         /// FilteredCount of a collection contains primitive or enum or complex or entity type, combined with a filter.
         /// </summary>

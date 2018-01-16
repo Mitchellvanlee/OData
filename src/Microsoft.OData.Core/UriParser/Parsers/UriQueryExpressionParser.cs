@@ -324,7 +324,6 @@ namespace Microsoft.OData.UriParser
         internal AggregateExpressionToken ParseAggregateExpression()
         {
             // expression
-            //NewMitchell --
             var expression = this.ParseExpression();
             var endPathExpression = expression as EndPathToken;
             AggregationMethodDefinition verb;
@@ -337,7 +336,7 @@ namespace Microsoft.OData.UriParser
             }
             else if (endPathExpression != null && endPathExpression.Identifier == ExpressionConstants.QueryOptionFilteredCount)
             {
-                // e.g. aggregate($filteredcount(Name eq 'russelwhyte') as Count)
+                // e.g. aggregate($filteredcount=Financiering eq 'Financiering' as Financieringen)
                 return this.ParseAggregateExpressionFilteredCount(expression);
             }
             else
@@ -353,7 +352,6 @@ namespace Microsoft.OData.UriParser
             return new AggregateExpressionToken(expression, verb, alias.Text);
         }
 
-        //MITCHELL TODO
         internal AggregateExpressionToken ParseAggregateExpressionFilteredCount(QueryToken expression)
         {
             // e.g. aggregate($filteredcount(Name eq 'russelwhyte') as Count)

@@ -173,7 +173,6 @@ namespace Microsoft.OData.UriParser
                 return GeneratePropertyAccessQueryNode(singleValueParent as SingleResourceNode, property, state);
             }
 
-            //NewMitchell
             switch (endPathToken.Identifier)
             {
                 case ExpressionConstants.QueryOptionCount:
