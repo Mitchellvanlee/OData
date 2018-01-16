@@ -7070,6 +7070,9 @@
         <member name="F:Microsoft.OData.UriParser.Aggregation.AggregationMethod.Count">
             <summary>A aggregation method Count.</summary>
         </member>
+        <member name="F:Microsoft.OData.UriParser.Aggregation.AggregationMethod.FilteredCount">
+            <summary>A aggregation method FilteredCount.</summary>
+        </member>
         <member name="T:Microsoft.OData.UriParser.Aggregation.AggregationMethodDefinition">
             <summary>
             Class that encapsulates all the information needed to define a aggregation method.
@@ -7095,6 +7098,9 @@
         </member>
         <member name="F:Microsoft.OData.UriParser.Aggregation.AggregationMethodDefinition.Count">
             <summary>Returns a definition for the aggregation method used to calculate $count.</summary>
+        </member>
+        <member name="F:Microsoft.OData.UriParser.Aggregation.AggregationMethodDefinition.FilteredCount">
+            <summary>Returns a definition for the aggregation method used to calculate $filteredcount.</summary>
         </member>
         <member name="M:Microsoft.OData.UriParser.Aggregation.AggregationMethodDefinition.#ctor(Microsoft.OData.UriParser.Aggregation.AggregationMethod)">
             <summary>Private constructor. Instances should be aquired via static fields of via Custom method.</summary>

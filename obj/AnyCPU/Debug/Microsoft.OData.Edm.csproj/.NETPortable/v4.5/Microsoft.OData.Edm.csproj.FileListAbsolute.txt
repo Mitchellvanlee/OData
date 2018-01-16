@@ -12,7 +12,6 @@ C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Product\.NETPortable\v
 C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Product\.NETPortable\v4.5\Microsoft.OData.Edm.xml
 C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Product\.NETPortable\v4.5\Microsoft.OData.Edm.dll.CodeAnalysisLog.xml
 C:\Users\mitch\Source\Repos\ODataProject\bin\AnyCPU\Debug\Product\.NETPortable\v4.5\Microsoft.OData.Edm.dll.lastcodeanalysissucceeded
-C:\Users\mitch\Source\Repos\ODataProject\obj\AnyCPU\Debug\Microsoft.OData.Edm.csproj\.NETPortable\v4.5\Microsoft.OData.Edm.csprojResolveAssemblyReference.cache
 C:\Users\mitch\Source\Repos\ODataProject\obj\AnyCPU\Debug\Microsoft.OData.Edm.csproj\.NETPortable\v4.5\Microsoft.OData.Edm.resources
 C:\Users\mitch\Source\Repos\ODataProject\obj\AnyCPU\Debug\Microsoft.OData.Edm.csproj\.NETPortable\v4.5\Microsoft.OData.Edm.csproj.GenerateResource.Cache
 C:\Users\mitch\Source\Repos\ODataProject\obj\AnyCPU\Debug\Microsoft.OData.Edm.csproj\.NETPortable\v4.5\Microsoft.OData.Edm.dll
