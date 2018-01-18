@@ -51,11 +51,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Cluster.cs" />
-    <Compile Include="Models\Contract.cs" />
-    <Compile Include="Models\MaandRapportage.cs" />
-    <Compile Include="Models\SubAgent.cs" />
-    <Compile Include="Models\Verkoper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -72,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="EFLinqExpressionProjection, Version=1.1.1.0, Culture=neutral, processorArchitecture=MSIL">

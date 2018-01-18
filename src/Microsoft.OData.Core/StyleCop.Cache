@@ -17813,7 +17813,7 @@
     <timestamps>
       <styleCop>2014/04/01 12:56:20.000</styleCop>
       <settingsFile>2017/11/13 14:18:03.443</settingsFile>
-      <sourceFile>2017/12/22 10:14:38.332</sourceFile>
+      <sourceFile>2018/01/18 10:26:24.725</sourceFile>
       <parser>2014/04/01 12:56:20.000</parser>
       <StyleCop.CSharp.DocumentationRules>2014/04/01 12:56:20.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>265332125</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -17840,40 +17840,7 @@
       <Microsoft.OData.StyleCop.UsingOutsideNamespaceRule>2014/04/01 12:56:20.000</Microsoft.OData.StyleCop.UsingOutsideNamespaceRule>
       <Microsoft.OData.StyleCop.UsingOutsideNamespaceRule.FilesHashCode>0</Microsoft.OData.StyleCop.UsingOutsideNamespaceRule.FilesHashCode>
     </timestamps>
-    <violations>
-      <violation namespace="StyleCop.CSharp.LayoutRules" rule="SingleLineCommentsMustNotBeFollowedByBlankLine" ruleCheckId="SA1512">
-        <context>A single-line comment must not be followed by a blank line. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
-        <line>73</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SingleLineCommentsMustBeginWithSingleSpace" ruleCheckId="SA1005">
-        <context>The comment must start with a single space. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
-        <line>69</line>
-        <index>2606</index>
-        <endIndex>2732</endIndex>
-        <startLine>69</startLine>
-        <startColumn>1</startColumn>
-        <endLine>69</endLine>
-        <endColumn>127</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.LayoutRules" rule="SingleLineCommentMustBePrecededByBlankLine" ruleCheckId="SA1515">
-        <context>A single-line comment must be preceded by a blank line or another single-line comment, or must be the first item in its scope. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
-        <line>47</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SingleLineCommentsMustBeginWithSingleSpace" ruleCheckId="SA1005">
-        <context>The comment must start with a single space. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
-        <line>47</line>
-        <index>1753</index>
-        <endIndex>1848</endIndex>
-        <startLine>47</startLine>
-        <startColumn>1</startColumn>
-        <endLine>47</endLine>
-        <endColumn>96</endColumn>
-        <warning>False</warning>
-      </violation>
-    </violations>
+    <violations />
   </sourcecode>
   <sourcecode name="FilterTransformationNode.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
