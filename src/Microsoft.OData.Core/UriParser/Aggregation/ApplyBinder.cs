@@ -44,17 +44,6 @@ namespace Microsoft.OData.UriParser.Aggregation
 
                     case QueryTokenKind.AggregateGroupBy:
                         transformations.Add(AddGroupByTransformationNode(token));
-//                        var expressions = GetAggregateExpressionTokensFromGroupByToken(token);
-//                        if (expressions != null)
-//                        {
-//                            foreach (var exp in expressions)
-//                            {
-//                                if (exp.Filter != null)
-//                                {
-//                                    transformations.Add(AddFilterTransformationNode(exp.Filter));
-//                                }
-//                            }
-//                        }
                         break;
 
                     default:
@@ -65,12 +54,6 @@ namespace Microsoft.OData.UriParser.Aggregation
 
             return new ApplyClause(transformations);
         }
-
-//        private static IEnumerable<AggregateExpressionToken> GetAggregateExpressionTokensFromGroupByToken(GroupByToken token)
-//        {
-//            var aggregateToken = token.AggregateToken;
-//            return aggregateToken?.Expressions;
-//        }
 
         private AggregateTransformationNode AddAggregateTransformationNode(AggregateToken token)
         {
