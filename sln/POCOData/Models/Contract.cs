@@ -13,5 +13,6 @@
         public ContractType Financiering { get; set; }
         public int Jaar { get; set; }
         public int Maand { get; set; }
+        public int JaarMaand => Jaar + Maand;
     }
 }

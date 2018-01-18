@@ -36,6 +36,9 @@ namespace POCOData
             builder.EntitySet<SubAgent>("SubAgenten");
             builder.EntitySet<Contract>("Contracten");
             builder.EntitySet<Cluster>("Clusters");
+            var cu = builder.StructuralTypes.First(t => t.ClrType == typeof(Contract));
+            cu.AddProperty(typeof(Contract).GetProperty("JaarMaand"));
+            builder.EntityType<Contract>();
 
             var routingConventions = ODataRoutingConventions
                 .CreateDefaultWithAttributeRouting("odata", config)
