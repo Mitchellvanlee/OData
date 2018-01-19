@@ -2275,7 +2275,7 @@ namespace System.Web.OData.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The query specified in the URI is WEL not WEL not WEL not WEL not valid. {0}.
+        ///   Looks up a localized string similar to The query specified in the URI is not valid. {0}.
         /// </summary>
         internal static string UriQueryStringInvalid {
             get {

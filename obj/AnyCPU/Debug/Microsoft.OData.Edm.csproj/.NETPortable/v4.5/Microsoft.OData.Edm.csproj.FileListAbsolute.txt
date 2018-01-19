@@ -16,4 +16,3 @@ C:\Users\mitch\Source\Repos\ODataProject\obj\AnyCPU\Debug\Microsoft.OData.Edm.cs
 C:\Users\mitch\Source\Repos\ODataProject\obj\AnyCPU\Debug\Microsoft.OData.Edm.csproj\.NETPortable\v4.5\Microsoft.OData.Edm.csproj.GenerateResource.Cache
 C:\Users\mitch\Source\Repos\ODataProject\obj\AnyCPU\Debug\Microsoft.OData.Edm.csproj\.NETPortable\v4.5\Microsoft.OData.Edm.dll
 C:\Users\mitch\Source\Repos\ODataProject\obj\AnyCPU\Debug\Microsoft.OData.Edm.csproj\.NETPortable\v4.5\Microsoft.OData.Edm.pdb
-C:\Users\mitch\Source\Repos\ODataProject\obj\AnyCPU\Debug\Microsoft.OData.Edm.csproj\.NETPortable\v4.5\Microsoft.OData.Edm.csprojResolveAssemblyReference.cache

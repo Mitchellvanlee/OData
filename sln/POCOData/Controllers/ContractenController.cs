@@ -41,56 +41,5 @@ namespace POCOData.Controllers
             public int Verzekering { get; set; }
             public int Totaal { get; set; }
         }
-
-        //        [HttpGet]
-        //        [ODataRoute("ODataPOC.GetContractenByYear()")]
-        //        public IHttpActionResult GetContractenByYear()
-        //        {
-        //            return Ok(context.Contracten.GroupBy(contract => contract.Jaar).Count());
-        //        }
-        //        public IQueryable<VerkoopPerVerkoperPerLocatiePerMaandPerJaarView> CreateVerkoopPerVerkoperPerLocatiePerMaandPerJaarViews()
-        //        {
-        //            IQueryable<VerkoopPerVerkoperPerLocatiePerMaandPerJaarView> result = _context.Contracten
-        //                .AsExpressionProjectable()
-        //                .Where(c => c != null)
-        //                .Where(c => c.Verkoper != null)
-        //                .Where(c => c.Verkoper.Naam != null)
-        //                .Where(c => c.Verkoper.SubAgent != null)
-        //                .GroupBy(contract => new
-        //                {
-        //                    Jaar = CalculateGroupingDatumExpression.Project(contract).Year,
-        //                    Maand = CalculateGroupingDatumExpression.Project(contract).Month,
-        //                    Verkoper = contract.Verkoper,
-        //                    SubAgent = contract.Verkoper.SubAgent
-        //                })
-        //                .Select(r => new VerkoopPerVerkoperPerLocatiePerMaandPerJaarView()
-        //                {
-        //                    Verkoper = r.Key.Verkoper.Naam,
-        //                    VerkoperId = r.Key.Verkoper.Id,
-        //                    Jaar = r.Key.Jaar,
-        //                    Maand = r.Key.Maand,
-        //                    SubAgent = r.Key.SubAgent.Naam,
-        //                    Financiering = r.Key.Verkoper.Contracten
-        //                        .GroupBy(re => new { Jaar = r.Key.Jaar, Maand = r.Key.Maand })
-        //                        .Sum(re => r.Key.Verkoper.Contracten
-        //                            .Where(c => CalculateGroupingDatumExpression.Project(c).Year == re.Key.Jaar &&
-        //                                        CalculateGroupingDatumExpression.Project(c).Month == re.Key.Maand)
-        //                            .Count(c => c.Financiering == ContractType.Financiering)),
-        //                    Verzekering = r.Key.Verkoper.Contracten
-        //                        .GroupBy(re => new { Jaar = r.Key.Jaar, Maand = r.Key.Maand })
-        //                        .Sum(re => r.Key.Verkoper.Contracten
-        //                            .Where(c => CalculateGroupingDatumExpression.Project(c).Year == re.Key.Jaar &&
-        //                                        CalculateGroupingDatumExpression.Project(c).Month == re.Key.Maand)
-        //                            .Count(c => c.Financiering == ContractType.Verzekering)),
-        //                    Totaal = r.Key.Verkoper.Contracten
-        //                        .GroupBy(re => new { Jaar = r.Key.Jaar, Maand = r.Key.Maand })
-        //                        .Sum(re => r.Key.Verkoper.Contracten
-        //                            .Where(c => CalculateGroupingDatumExpression.Project(c).Year == re.Key.Jaar &&
-        //                                        CalculateGroupingDatumExpression.Project(c).Month == re.Key.Maand)
-        //                            .Count(c => c.Financiering == ContractType.Verzekering ||
-        //                                        c.Financiering == ContractType.Financiering))
-        //                });
-        //            return result;
-        //        }
     }
 }
